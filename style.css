@@ -1,0 +1,286 @@
+                body{
+                      background-image: url('../images/OIP.jpg');
+                      /*background: linear-grandient(red,orange);*/
+                   }             
+                  h1{
+                         
+                    font-size: 48px;
+                    text-decoration: underline;
+                    font-family:papyrus;
+                    font-weight:bold;
+                    margin-left:10px;
+                  }
+
+                    h2{
+                         color:red;
+                         font-size:36px;
+                         text-decoration:underline;
+                         text-shadow:5px 5px 1px black;
+                       /* comment css  */
+                    }
+                     li{
+                         color:orange;
+                         font-size:16px;
+                         font-weight:bold;
+                         font-variant:small-caps;
+             
+                     }
+                      .orange_text{
+                         color:orange;
+                         color:#FFCA00FF;
+                         color: rgba(255, 125, 0, 100%)
+                         color: hsla(30, 100%, 50%, 100%);
+                      }
+                       /*makes text  have small-caps*/
+                       .small_cap_letter{
+                          font-variant:small-caps;
+                      }
+
+                       
+                          .large_text{
+                           font-size:48px;
+                        }
+
+                     .doc_header{
+                          width: 75%;
+                        /*line width,line type,color*/
+                          border:5px solid black;
+                          margin-bottom: 30px;
+                          margin-left: auto; 
+                          margin-right:auto;
+                          min-height: 100px;
+                          border-radius:15px;
+                          background-color: #FFFFFFDD;
+
+                        }
+                     .doc_body{
+                          width:80%;
+                          margin-left: auto;
+                          margin-right:auto;
+                          color:crimson;
+                         border:5px solid blue;
+                        }
+                    .heavy_border{
+                       border:5px dashed red;
+                       padding:15px;
+                       margin:15px;
+                    }
+.inner_picture {
+     border:2px solid green;
+     width:100px;
+     float: left;
+
+    }
+.inner_video {
+   width:300px;
+
+}
+ .inner_picture {
+        border:2px solid green;
+        width:100px;
+ }
+
+ .small_img {
+       max-width:  100px;
+ }
+.small_img: hover{
+    max-width:200px;
+}
+ 
+ .inner_video {
+        width: 300px;
+ }
+
+
+.float_L{
+  float: right;
+  margin-left: 5px;
+}
+
+
+.flex_container{
+      display: flex;
+      gap:15px;
+      background-color: #CCCCCCAA;
+      justify-content: center;
+      flex-direction: row;
+      border: 1px solid black;
+      
+}
+
+
+.flex_ container div {
+        background-color: #DDDDDDAA;
+        background: linear-gradient(silver,white);
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        transiton: background 2.5;
+}
+ .flex_container div: hover{
+            background: linear-gradient(white, silver);
+            border: 1px solid crimson;
+            border-radius:0px;
+}
+/*
+       .flex_ child {
+       background-color: #DDDDDD;
+       background: linear-gradient(white,silver);
+       border
+       padding: 5px;
+       margin: 5px;
+       border: 1px solid black;
+}
+*/
+       table{
+         color: #000000;
+         border:2px solid #000000;
+         padding: 5px;
+         margin: 15px;
+}
+ tr {
+        border: 2px solid #000000;
+}
+td {
+       border: 2px dashed #000000;
+       background-color: #CDCDCD;
+       padding: 5px;
+       text-align: center;
+}
+th {
+       background-color: #999999;
+       border: 2px solid #000000;
+}
+ .yellow {
+        background-color: yellow;
+}
+ .red {
+        background-color: red;
+}
+ .rounded{
+       border: 2p dashed orange;
+       margin: 5px;
+       border-radius: 25px 0px 25px 0px;
+}
+
+@keyframes slide {
+
+       0%{
+          left: 0px;
+          width:100px;
+          height:100px;
+       }
+
+       95%{
+           width:100px;
+           height:100px;
+       }
+      
+
+       100%{
+            left: 500px;
+            width:90px;
+            height:100px;
+      
+      }
+
+
+}
+
+
+ .ball{
+       /*background-color: crimson;*/
+       background: linear-gradient(#FF000066, orange);
+       width:100px;
+       height:100px;
+       border-radius:50%;
+       border:5px solid black;
+       position: relative;
+       animation: slide 5s ease-in alternate infinite;
+}
+/* .ball: hover{
+        background: linear-grandient(orange, #FF000066);
+        cursor: pointer;
+
+}*/
+.hidden_menu {
+           display: none;
+           background-color: #CCCCCCDD;
+           border: 2px solid black;
+
+}
+ /*.ball:hover .hidden_menu {
+            display: block;
+}*/
+
+ .bg_ image{
+           background-image: URL('../images/honey crisp apple.jpg');
+           background-repeat: no-repeat;
+}
+ .rectangle{
+    width:100px;
+    height:50px;
+    border: 2px solid black;
+}
+ input{
+      margin-top:15px;
+      border-color:#000000;
+      color:crimson;
+}
+ lable{
+      margin-left:15px;
+}
+ .left_margin_space{
+        margin-left:15px;
+}
+
+ @keyframes rainbow{
+
+      0%{
+         color:orange;
+      }
+
+      25%{
+         color:green;
+      }
+
+      50%{
+           color:crimson;
+      }
+      
+      75%{
+          color:green;
+      }
+ 
+     100%{
+         color: orange;
+    }
+    
+}
+
+ a {
+      color:orange;
+      text-decoration: underline;
+      text-shadow: 0px 0px black;
+
+       /*linear; ease-in;ease-out;ease-in-out*/
+     /* transition: color 2.5s ease-in-out;*/
+}
+   /*visited link*/
+ a:visited {
+          color:purple;
+}
+  /*mouse/cursor hoverong over*/
+ a:hover {
+        animation: rainbow 2.5s linear;
+        text-decoration: none;
+}
+  /*about to receive input*/
+ a: focus{
+        color: black;
+}
+ /*receiving input*/
+ a:active{
+         color: green;
+}
